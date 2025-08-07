@@ -1,7 +1,12 @@
+import { banner2  } from "../banner2/banner2Component.js";
 export function login(){
-    let div = document.createElement('div');
-    div.className = "login-1";
+    let login=document.createElement("div");
+    login.className="login";
 
-    return div;
+    login.appendChild(banner2());
+
+  
+
+
+    return login;
 }
-document.body.appendChild(login());
