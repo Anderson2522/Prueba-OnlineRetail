@@ -13,7 +13,5 @@ export function banner(){
    aBoton.textContent="SHOP NOW";
    div.appendChild(aBoton);
 
-
-
     return div;
 }

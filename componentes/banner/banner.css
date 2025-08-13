@@ -9,10 +9,7 @@
     display: grid;
     grid-template-rows: 1fr auto auto;
     justify-content: center;
-    
 }
-
-
 .div-banner span{
     grid-row: 2/3;
     color: white;
@@ -20,7 +17,6 @@
     font-weight: 900;
     font-family: monospace;
 }
-
 .div-banner .div-boton  {
     text-decoration: none;
     grid-row: 3/4;

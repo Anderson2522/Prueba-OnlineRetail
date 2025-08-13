@@ -7,7 +7,7 @@ export function section2() {
     section.appendChild(columna1);
 
     let flecha = document.createElement("img");
-    flecha.className = "flecha-Regreso";
+    flecha.className = "flecha1";
     flecha.src = "../assets/BotonDeRegreso.svg";
     columna1.appendChild(flecha);
 
@@ -80,7 +80,7 @@ export function section2() {
     columna2.appendChild(btnLogin);
 
     let footer = document.createElement("p");
-    footer.className = "footer-text";
+    footer.className = "textofooter";
     footer.innerHTML = `Not registered yet? <a href="#">Create an Account</a>`;
     columna2.appendChild(footer);
 
