@@ -1,4 +1,4 @@
-import { section2 } from "../loginNo2/login2.js";
+import { section2 } from "../logInNo2/logIn.js";
 
 export function banner2() {
     let div = document.createElement('div');

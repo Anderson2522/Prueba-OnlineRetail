@@ -1,4 +1,4 @@
-import { banner2  } from "../banner2/banner2Component.js";
+import { banner2 } from "../banner2/banner2Component.js";
 export function login(){
     let login=document.createElement("div");
     login.className="login";
